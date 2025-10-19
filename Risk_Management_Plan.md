@@ -1,53 +1,43 @@
 # Risk Management Plan for Habi Heritage
 
 ## A. INTRODUCTION
-- **Description**: Provides an overview of risk management objectives and scope.
-- **Example**: "This plan outlines the process for identifying, analyzing, responding to, and monitoring risks associated with the development of the Habi Heritage web application, a platform for cultural heritage preservation."
+This plan outlines the process for identifying, analyzing, responding to, and monitoring risks associated with the development of the Habi Heritage web application, a platform for cultural heritage preservation. It follows the risk management process including identification, analysis, response planning, and monitoring as per ISO 31000 standards.
 
 ## B. OBJECTIVES OF RISK MANAGEMENT
-- **Description**: Explains why risk management is being performed.
-- **Example**:
-  - Minimize potential project delays due to unforeseen issues.
-  - Control cost overruns from scope changes or resource shortages.
-  - Ensure software reliability and quality to meet user expectations.
+- Minimize potential project delays due to unforeseen issues.
+- Control cost overruns from scope changes or resource shortages.
+- Ensure software reliability and quality to meet user expectations.
+- Protect resources such as time, money, and human capital.
+- Increase the chance of success by preparing for uncertainties.
 
 ## C. SCOPE OF RISK MANAGEMENT
-- **Description**: Defines which risks will be considered (technical, organizational, external).
-- **Example**: "Covers risks related to project schedule, cost, resources, technology integration, security, and compliance with cultural heritage standards."
+Covers risks related to project schedule, cost, resources, technology integration, security, and compliance with cultural heritage standards. This includes technical risks like software bugs, organizational risks such as team turnover, and external risks including regulatory changes.
 
 ## D. RISK MANAGEMENT APPROACH
-- **Description**: Explains the methodology or framework used.
-- **Example**: "Risks will be identified during planning and sprint reviews, tracked throughout execution using a risk register. Techniques include brainstorming sessions, expert judgment, and SWOT analysis."
+Risks will be identified during planning and sprint reviews, tracked throughout execution using a risk register. Techniques include brainstorming sessions, expert judgment, SWOT analysis, and checklists. The process involves continuous monitoring, stakeholder involvement, and integration with project management activities.
 
 ## E. RISK IDENTIFICATION
-- **Description**: Process of identifying risks that may affect the project.
-- **Example**:
-  - Technical: API integration failures, software bugs, database performance issues.
-  - Organizational: Team member turnover, unclear requirements, communication gaps.
-  - External: Regulatory changes in data privacy, vendor delays for payment gateways, cultural sensitivity issues.
+- Technical: API integration failures, software bugs, database performance issues, server downtime.
+- Organizational: Team member turnover, unclear requirements, communication gaps, resource shortages.
+- External: Regulatory changes in data privacy, vendor delays for payment gateways, cultural sensitivity issues, natural disasters affecting operations.
 
 ## F. RISK ANALYSIS
-- **Qualitative Analysis**: Ranking risks based on probability and impact (High/Medium/Low).
-- **Quantitative Analysis**: Estimating numerical impact (time lost, cost added).
-- **Example**:
-  - Risk: Payment gateway integration failure → Probability: Medium → Impact: High (potential loss of $10,000 in development costs).
+- Qualitative Analysis: Ranking risks based on probability and impact (High/Medium/Low) using a risk probability-impact matrix.
+- Quantitative Analysis: Estimating numerical impact (time lost, cost added) using Expected Monetary Value (EMV) calculations.
+- Risk: Payment gateway integration failure → Probability: Medium → Impact: High (potential loss of $10,000 in development costs).
 
 ## G. RISK RESPONSE PLANNING
-- **Description**: Defines strategies to address risks.
-- **Strategies**:
+- Strategies:
   - Avoidance: Change the project plan to eliminate risk.
   - Mitigation: Reduce probability/impact.
   - Transfer: Shift responsibility (e.g., insurance, outsourcing).
   - Acceptance: Acknowledge and monitor the risk.
-- **Example**:
-  - Risk: Key developer resigns → Mitigation: Maintain backup developers, document code thoroughly, use pair programming.
+- Risk: Key developer resigns → Mitigation: Maintain backup developers, document code thoroughly, use pair programming.
 
 ## H. RISK MONITORING AND CONTROL
-- **Description**: Continuous process of tracking risks, reviewing triggers, and updating responses.
-- **Example**: "Weekly risk review meetings, updates to the risk register, and logging of new risks as they are discovered during development."
+Weekly risk review meetings, updates to the risk register, and logging of new risks as they are discovered during development. This includes tracking identified risks, monitoring residual risks, evaluating response effectiveness, and conducting risk audits.
 
 ## I. RISK REGISTER
-- **Description**: Central document tracking risks, owners, probability, impact, and responses.
 
 | Risk ID | Risk Description | Probability | Impact | Risk Owner | Response Strategy | Status |
 |---------|------------------|-------------|--------|------------|-------------------|--------|
@@ -59,19 +49,17 @@
 | R6 | Security vulnerabilities in payment processing | High | High | Security Lead | Mitigation: Regular audits and encryption | Open |
 | R7 | Cultural content copyright infringement | Low | High | Legal Advisor | Avoidance: Obtain permissions and legal review | Open |
 | R8 | Third-party vendor delays (e.g., hosting) | Medium | Medium | Project Manager | Transfer: Use alternative vendors | Open |
+| R9 | Scope creep from additional features | Medium | High | Project Manager | Mitigation: Strict change control process | Open |
+| R10 | Data privacy compliance issues | High | High | Compliance Officer | Mitigation: Regular audits and legal consultation | Open |
 
 ## J. ROLES AND RESPONSIBILITIES
-- **Description**: Defines team members' responsibilities in risk management.
-- **Example**:
-  - Project Manager: Oversees the risk process and facilitates reviews.
-  - QA Lead: Identifies quality-related risks.
-  - Developers: Report technical risks and implement mitigations.
-  - Stakeholders: Provide input on external risks.
+- Project Manager: Oversees risk process, facilitates reviews, and ensures stakeholder involvement.
+- QA Lead: Identifies quality-related risks and monitors testing risks.
+- Developers: Report technical risks and implement mitigations.
+- Stakeholders: Provide input on external risks and participate in risk discussions.
 
 ## K. Tools and Techniques
-- **Description**: Tools used for risk tracking and management.
-- **Example**: "Jira for risk tracking, MS Project for schedule impact analysis, risk matrix charts for visualization."
+Jira for risk tracking, MS Project for schedule impact analysis, risk matrix charts for visualization, and brainstorming sessions for identification.
 
 ## L. Approval and Sign-off
-- **Description**: Lists stakeholders who must approve the RMP.
-- **Example**: "Project Manager, Client Representative, Risk Officer."
+Project Manager, Client Representative, Risk Officer.
