@@ -26,9 +26,11 @@ Habi Heritage is a full-stack web application built with Laravel (backend) and R
 
 1. Navigate to the backend directory:
 
-   ```bash
-   cd backend-habiheritage
-   ```
+    ```bash
+    cd backend-habiheritage
+    ```
+
+    [View backend code on GitHub](https://github.com/Faranxis524/Habi-Heritage/tree/main/backend-habiheritage)
 
 2. Install PHP dependencies:
 
@@ -74,9 +76,11 @@ Habi Heritage is a full-stack web application built with Laravel (backend) and R
 
 1. Navigate to the frontend directory:
 
-   ```bash
-   cd frontend-habiheritage
-   ```
+    ```bash
+    cd frontend-habiheritage
+    ```
+
+    [View frontend code on GitHub](https://github.com/Faranxis524/Habi-Heritage/tree/main/frontend-habiheritage)
 
 2. Install JavaScript dependencies:
 
